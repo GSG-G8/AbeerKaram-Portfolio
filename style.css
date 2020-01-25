@@ -1,98 +1,97 @@
 * {
-    margin: 0;
-    padding: 0;
-  }
-  /* Header Section */
-  .header_area {
-    width: 100%;
-    height: 500px;
-  }
-  nav {
-    background-color: rgba(131, 129, 134, 0.5);
-    z-index: 5;
-    position: fixed;
-    top: 0;
-    width: 100%;
-  }
-  .main_menu {
-    list-style-type: none;
-    display: flex;
-    flex-direction: row;
-    float: right;
-    position: fixed;
-    top: 30px;
-    right: 30px;
-    font-size: 17px;
-    font-family: "Roboto", sans-serif;
-  }
-  .header_area a {
-    text-decoration: none;
-    padding: 10px;
-    color: black;
-  }
-  .logo {
-    width: 40px;
-    padding: 20px;
-  }
-  .img_area {
-    width: 550px;
-    height: 500px;
-    display: flex;
-    flex-direction: row;
-    padding: 30px;
-    margin-top: -60px;
-  }
-  .contant {
-    display: flex;
-    flex-direction: row;
-    font-size: 17px;
-    font-weight: bold;
-    padding: 150px;
-
-  }
-   h5 {
-     margin-top: 30%;
-    font-size: 14px;
-    font-family: "Roboto", sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2.1px;
-    margin-bottom: 15px;
-  }
-  h2 {
-    margin-top: 0px;
-    font-size: 40px;
-    font-weight: bold;
-    font-family: "Heebo", sans-serif;
-    line-height: 54px;
-    text-transform: uppercase;
-    margin-bottom: 20px;
-  }
-  p {
-    color: #5e5b5b;
-    font-family: "Roboto", sans-serif;
-    max-width: 680px;
-    font-size: 16px;
-    line-height: 26px;
-    margin: 0px auto 45px;
-  }
+  margin: 0;
+  padding: 0;
+}
+/* Header Section */
+.header_area {
+  width: 100%;
+  height: 500px;
+}
+nav {
+  background-color: rgba(131, 129, 134, 0.5);
+  z-index: 5;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+.main_menu {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  float: right;
+  position: fixed;
+  top: 30px;
+  right: 30px;
+  font-size: 17px;
+  font-family: "Roboto", sans-serif;
+}
+.header_area a {
+  text-decoration: none;
+  padding: 10px;
+  color: black;
+}
+.logo {
+  width: 40px;
+  padding: 20px;
+}
+.img_area {
+  width: 550px;
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  padding: 30px;
+  margin-top: -60px;
+}
+.contant {
+  display: flex;
+  flex-direction: row;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 150px;
+}
+h5 {
+  margin-top: 30%;
+  font-size: 14px;
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 2.1px;
+  margin-bottom: 15px;
+}
+h2 {
+  margin-top: 0px;
+  font-size: 40px;
+  font-weight: bold;
+  font-family: "Heebo", sans-serif;
+  line-height: 54px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+p {
+  color: #5e5b5b;
+  font-family: "Roboto", sans-serif;
+  max-width: 680px;
+  font-size: 16px;
+  line-height: 26px;
+  margin: 0px auto 45px;
+}
 /* About Section*/
-.about{
-width: 80%;
-display: flex;
-flex-direction: row;
-flex-wrap: wrap;
-margin: 5% auto;
-align-items: center;
-justify-content: space-around;
-padding: 13%;
+.about {
+  width: 80%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin: 5% auto;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10%;
 }
 .img {
-width: 300px;
-margin-left: 7%;
+  width: 300px;
+  margin-left: 7%;
 }
-.about_myself{
-width: 60%;
-text-align: justify;
+.about_myself {
+  width: 60%;
+  text-align: justify;
 }
 /* Servicses Section */
 .services_contant {
@@ -120,7 +119,7 @@ footer {
   background-image: linear-gradient(
     rgba(131, 129, 134, 0.5),
     rgba(131, 129, 134, 0.5)
-    );
+  );
 }
 .contact {
   display: flex;
@@ -135,7 +134,7 @@ footer {
   color: black;
 }
 .contact_me a {
-  color: black
+  color: black;
 }
 .form {
   margin-top: 40px;
@@ -147,11 +146,10 @@ footer {
 .form input {
   margin: 5px;
   background: none;
-  border: 2px solid black ;
+  border: 2px solid black;
   height: 20px;
   width: 200px;
   outline: none;
-
 }
 .Message_area {
   display: flex;
@@ -166,7 +164,7 @@ footer {
   margin-top: 5px;
 }
 .button {
-  background: rgba(131, 129, 134, 0.5) ;
+  background: rgba(131, 129, 134, 0.5);
   border: 1px solid black;
   width: 100px;
   height: 30px;
